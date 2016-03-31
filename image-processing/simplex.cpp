@@ -18,6 +18,9 @@ void x_gradient(const gray8c_view_t& src,
   }
 }
 
+
+// try to implement cache efficient, generic y-gradient
+// compare C-level code
 void x_gradient(const gray8c_view_t& src,
                 const gray8s_view_t& dst)
 {
