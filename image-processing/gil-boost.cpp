@@ -39,6 +39,7 @@ void x_luminosity_gradient(const SrcView& src, const DstView& dst) {
 }
 
 
+
 int main() {
 
   rgb8_image_t img;
