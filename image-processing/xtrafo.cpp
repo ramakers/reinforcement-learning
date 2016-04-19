@@ -1,6 +1,5 @@
 #include</usr/include/boost/gil/gil_all.hpp>
 
-#todo: cache efficiency tuning
 using namespace boost::gil;
 
 void x_gradient(const gray8c_view_t& src,
